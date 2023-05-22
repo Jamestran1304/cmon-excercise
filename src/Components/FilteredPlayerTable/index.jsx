@@ -13,7 +13,7 @@ export default function FilterPlayereTable() {
   return (
     <div>
       <PositionSelection
-        positions={["Forward", "Midfielder", "Defender", "Goalkeeper", "All"]}
+        positions={["Forward", "Midfielder", "Defender", "Goalkeeper"]}
         onChange={handlePositionChange}
       />
       <PlayerTable playerArrayy={selectedPosition} />
