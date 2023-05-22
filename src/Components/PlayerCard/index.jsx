@@ -1,4 +1,5 @@
 import React from 'react';
+import './PlayerCard.module.scss'
 
 const PlayerCard = ({ player }) => {
   const { name, positions, team, image } = player;

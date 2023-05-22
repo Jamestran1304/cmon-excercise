@@ -5,15 +5,21 @@ function App() {
   const haaland = {
     id: 1,
     name: "Erling Haaland",
-    positions: ["forward"],
+    positions: ["Forward"],
     team: "Manchester City",
-    image: "https://en.wikipedia.org/wiki/Erling_Haaland#/media/File:Erling_Haaland_2023_(cropped).jpg"
-  }
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/0/07/Erling_Haaland_2023_%28cropped%29.jpg",
+  };
   return (
     <div className="App">
-      <PlayerCard player={haaland}/>
-      <br/>
-      <FilteredPlayerTable/>
+      <div>
+        <h1>Problem 1</h1>
+        <PlayerCard player={haaland} />
+      </div>
+      <div>
+        <h1>Problem 2 3</h1>
+        <FilteredPlayerTable />
+      </div>
     </div>
   );
 }
